@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#03A9F4"
+    android:layout_height="match_parent"
+    tools:context=".ViewEmployee">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="ID" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:enabled="false"
+        android:background="#ffffff"
+        android:id="@+id/editTextId" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Employee Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+
+        android:layout_height="35dp"
+        android:background="#ffffff"
+        android:id="@+id/editTextName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Designation" />
+
+    <EditText
+        android:layout_width="match_parent"
+
+        android:layout_height="35dp"
+        android:background="#ffffff"
+
+        android:id="@+id/editTextDesg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:text="Salary" />
+
+    <EditText
+        android:layout_width="match_parent"
+
+        android:layout_height="35dp"
+        android:background="#ffffff"
+        android:id="@+id/editTextSalary" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textColor="#FFFFFF"
+        android:background="#f95c07"
+        android:id="@+id/buttonUpdate" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textColor="#FFFFFF"
+        android:background="#2f2236"
+        android:id="@+id/buttonDelete" />
+
+
+</LinearLayout>

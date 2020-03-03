@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#03A9F4"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Designation" />
+
+    <EditText
+        android:id="@+id/editTextDesgnation"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:background="#ffffff"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <Button
+        android:id="@+id/buttonAddDesignation"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:background="#f95c07"
+        android:text="Add Designation"
+
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#8c88ff"
+            android:background="#cde7e2"
+            android:dividerHeight="5dp"
+            android:id="@+id/listView" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
